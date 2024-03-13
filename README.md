@@ -1,2 +1,4 @@
-# Labirinto-3D
-Projeto realizado durante a disciplina de Computação Gráfica
+<div align="center">
+  <h1>Labirinto 3D</h1>
+  <b>Computação Gráfica</b>
+</div>
