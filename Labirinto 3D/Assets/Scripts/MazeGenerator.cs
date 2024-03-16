@@ -2,19 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MazeGenerator : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class MazeGenerator : MonoBehaviour {
+    [Range(5, 500)]
+    public int mazeWidth = 5, mazeHeigth = 5; //Dimensoes do labirinto 
 }
 
 public class MazeCell {
@@ -31,8 +21,16 @@ public class MazeCell {
     }
 
     public MazeCell (int x, int y) {
+        
+        // Coordenadas da celula no labirinto
         this.x = x;
         this.y = y;
+
+        //Verifica se o algoritmo ja visitou ou não a celula
+        visited = false;
+
+        //Todas as paredes são adicionadas ate que o algoritmo as remova
+        topWall = leftWall = true;
     }
 
 }
