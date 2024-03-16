@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MazeGenerator : MonoBehaviour {
     [Range(5, 500)]
-    public int mazeWidth = 5, mazeHeigth = 5; //Dimensoes do labirinto 
+    public int mazeWidth = 6, mazeHeigth = 6; //Dimensoes do labirinto 
 }
 
 public class MazeCell {
