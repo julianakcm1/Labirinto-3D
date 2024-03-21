@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23565851294790098}
   - component: {fileID: 95181819513353116}
   - component: {fileID: 64786477715725960}
+  - component: {fileID: -7074881653335494103}
   m_Layer: 0
   m_Name: chaoBase
   m_TagString: Untagged
@@ -128,3 +129,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1e0c4470341a2dd4d8e646c248dd72d8, type: 3}
+--- !u!65 &-7074881653335494103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456817216256632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
