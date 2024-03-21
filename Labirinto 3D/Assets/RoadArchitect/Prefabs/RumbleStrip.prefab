@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6400000}
-  - component: {fileID: -7196570149606094162}
+  - component: {fileID: 2973754956856529632}
   m_Layer: 0
   m_Name: RumbleStrip
   m_TagString: Untagged
@@ -107,8 +107,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: f5c45862592b359489ab4cf733916a3e, type: 3}
---- !u!65 &-7196570149606094162
-BoxCollider:
+--- !u!64 &2973754956856529632
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -125,6 +125,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.4, y: 3.061617e-16, z: 5}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: f5c45862592b359489ab4cf733916a3e, type: 3}

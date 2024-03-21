@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 9500000}
-  - component: {fileID: -7432666087603976426}
+  - component: {fileID: -1360173062747920909}
   m_Layer: 0
   m_Name: Props_Roof prop air
   m_TagString: Untagged
@@ -106,8 +106,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &-7432666087603976426
-BoxCollider:
+--- !u!64 &-1360173062747920909
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -124,6 +124,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.8234506, y: 1.1531502, z: 1.4126666}
-  m_Center: {x: -0.24046057, y: 0.50279874, z: -0.034448653}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: dccc704d9a70b064b8d29fe27fcbc17b, type: 3}

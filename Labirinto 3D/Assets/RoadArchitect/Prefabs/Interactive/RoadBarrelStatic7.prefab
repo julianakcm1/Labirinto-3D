@@ -64,8 +64,8 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  - component: {fileID: 6500002}
   - component: {fileID: -1377035356541497559}
+  - component: {fileID: -816417859822488267}
   m_Layer: 0
   m_Name: RoadBarrelStatic7
   m_TagString: Untagged
@@ -139,27 +139,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6500002
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100002}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.8, y: 1.3466308, z: 2.8}
-  m_Center: {x: 0.000000029802322, y: 0.6733154, z: -1.5}
 --- !u!65 &-1377035356541497559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -181,3 +160,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9200001, y: 1.3466308, z: 3.92}
   m_Center: {x: 0.000000029802322, y: 0.6733154, z: -2}
+--- !u!64 &-816417859822488267
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 26539c631b645c5409c590ce5b0ed19b, type: 3}

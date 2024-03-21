@@ -2501,7 +2501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4600475045588664}
-  - component: {fileID: 1370285055905624284}
+  - component: {fileID: -851848005570346080}
   m_Layer: 0
   m_Name: Buildings03_floor (1)
   m_TagString: Untagged
@@ -2537,8 +2537,8 @@ Transform:
   - {fileID: 4762300066465102}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1370285055905624284
-BoxCollider:
+--- !u!64 &-851848005570346080
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2555,9 +2555,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1799149286270646
 GameObject:
   m_ObjectHideFlags: 0

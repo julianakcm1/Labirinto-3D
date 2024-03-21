@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  - component: {fileID: 909571535977331280}
+  - component: {fileID: 382701588337820208}
   m_Layer: 0
   m_Name: TrafficLight
   m_TagString: Untagged
@@ -179,8 +179,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &909571535977331280
-BoxCollider:
+--- !u!64 &382701588337820208
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -197,6 +197,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.32035565, y: 2.6502829, z: 2.5434835}
-  m_Center: {x: 0.0000006631017, y: 1.1651412, z: 8.876968}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 03821f42d9a93d34e85f60f448147567, type: 3}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4147489672098666}
   - component: {fileID: 64851496961325854}
-  - component: {fileID: 4933141138059991596}
+  - component: {fileID: -8379673890262902580}
   m_Layer: 0
   m_Name: piso (4)
   m_TagString: Untagged
@@ -56,8 +56,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &4933141138059991596
-BoxCollider:
+--- !u!64 &-8379673890262902580
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -74,9 +74,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1963652344274376
 GameObject:
   m_ObjectHideFlags: 0
