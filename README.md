@@ -36,7 +36,7 @@ This project was developed with the following technologies:
 
 ## :envelope: Contact
 
-- E-mail: julianakcmelo@gmail.com
-- LinkedIn: https://www.linkedin.com/in/julianakcmelo/
+- E-mails: julianakcmelo@gmail.com | slvlb@ic.ufal.br
+- LinkedIn: https://www.linkedin.com/in/julianakcmelo/ | https://www.linkedin.com/in/samuel-lucas-34aa6b1bb/
 
 </div>
